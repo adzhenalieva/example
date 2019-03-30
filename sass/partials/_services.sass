@@ -1,0 +1,95 @@
+.top-services
+	background: #ececec
+	border-radius: 5px
+	padding: 18px 0 17px
+	margin: 0 0 50px 0
+	display: flex
+	flex-wrap: wrap
+	& h2
+		font-weight: 600
+		font-size: 30px
+		color: #7f8c8c
+		margin: 0 0 4px 19px
+	& p
+		margin: 0 0 6px 19px
+		display: inline-block
+.top-services-text
+	margin-right: 20px
+.top-services-link
+	padding-top: 17px
+	padding-left: 19px
+	margin-bottom: 10px
+	+lg
+		padding-left: 33px
+.button
+	+buttons($red-button,20px,8px,12px,46px,43px,$box-shadow-red)
+.items
+	display: flex
+	flex-wrap: wrap
+	margin: 0 15px
+.item
+	background: #f8f8f8
+	border-radius: 5px
+	padding: 45px 15px 45px
+	box-shadow: 0px 4px 2px 0px rgba(229, 230, 230, 0.75)
+	margin:  0 15px 81px 15px
+	position: relative
+	text-align: center
+	width: 100%
+	+phone
+		width: 45%
+	+lg
+		width: 22.8%
+	&:hover
+		background: #fff
+		& .item-icon
+				color: $red-icon
+		& .read-button
+				+buttons($red-button,14px,18px,14px,5px,5px,$box-shadow-red)
+	& h4
+		font-size: 16px
+		color: #7f8c8c
+		font-weight: 800
+		text-transform: uppercase
+		padding: 76px 0 0 0
+		margin: 0 0 27px 0
+	& p
+		line-height: 21px
+	& a
+		text-decoration: none
+	&:first-child
+		margin-left: 0
+	&:last-child
+		margin-right: 0
+.item-icon
+	position: absolute
+	font-size: 55px
+	color: $blue-icon
+	top: 42px
+	left: 50%
+	margin-left: -30px
+	font-family: 'Font Awesome 5 Free'
+	font-weight: 900
+.item-icon-1
+	&::before
+		content: "\f164"
+.item-icon-2
+	&::before
+		content: "\f084"
+.item-icon-3
+	&::before
+		content: "\f024"
+.item-icon-4
+	&::before
+		content: "\f0c3"
+.read-button
+	+buttons($blue-button,14px,18px,14px,5px,5px,$box-shadow-blue)
+	position: absolute
+	width: 200px
+	bottom: -24px
+	left: 50%
+	margin-left: -100px
+
+
+
+

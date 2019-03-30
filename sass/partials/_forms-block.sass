@@ -1,0 +1,67 @@
+.forms-block
+	background: $blue-button url(../images/bg-forms.png) repeat-x 0 0
+	padding: 37px 0 21px
+	color: #fff
+	line-height: 24px
+%form-box-title
+	color: #4b7e79
+	margin: 0 0 22px 0
+	padding-top: 7px
+.forms-logo
+	@extend %logo
+	@extend %form-box-title
+.form-box-link
+	color: #fff
+	text-decoration: none
+	font-size: 20px
+.form-box-title
+	@extend %form-box-title
+	font-size: 20px
+.form-row
+	padding: 0 0 10px 0
+.form-row-label
+	display: inline-block
+	width: 70px
+	vertical-align: top
+.field
+	width: 268px
+	height: 28px
+	padding: 5px
+	border: 1px solid #4b7e79
+.field-area
+	resize: vertical
+	height: 83px
+.blog-title
+	@extend %form-box-title
+	font-size: 20px
+	text-transform: uppercase
+	& span
+		font-style: italic
+		text-transform: lowercase
+.blog-link
+	color: #fff
+	text-decoration: none
+	display: block
+	margin-bottom: 20px
+	line-height: 20px
+	& img
+		border-radius: 5px
+		float: left
+		margin: 0 30px 0 0
+	& p
+		margin: 0	
+.blog-link-date
+	color: #4b7e79
+.forms-boxes
+	display: flex
+	flex-wrap: wrap
+	margin: 0 15px
+.form-box
+	width: 90%
+	margin-bottom: 30px
+	padding: 0 15px 0 20px
+	+tablet
+		width: 33.3332%
+		margin-bottom: 0
+		&:first-child
+			padding-left: 0

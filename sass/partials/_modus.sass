@@ -1,0 +1,77 @@
+.modus-block
+	background: #ececec url(../images/bg-modus.png) repeat-x 0 0
+	padding: 58px 0 26px
+.modus-title
+	text-align: center
+	font-size: 30px
+	+tablet
+		font-size: 40px
+	color: #e1524b
+	text-transform: uppercase
+	font-weight: 600
+	margin: 0
+.modus-text
+	margin: 0 0 60px 0
+	text-align: center
+.modus-boxes
+	display: flex
+	justify-content: space-between
+	flex-wrap: wrap
+.modus-box-lg
+	width: 95%
+	margin-bottom: 45px
+	+tablet
+		width: 48%
+.modus-box
+	width: 95%
+	margin-bottom: 45px
+	+tablet
+		width: 25%
+.modus-box-title
+		color: #7f8c8c
+		font-weight: 800
+		font-size: 16px
+		margin: 0 0 28px 0
+.modus-list
+	margin: 0
+	padding: 0
+	list-style: none
+	& li
+		padding: 5px 0 5px 20px
+		position: relative
+		&:before
+			content: "\f00c"
+			color: #61b8b0
+			font-size: 12px
+			font-family: 'Font Awesome 5 Free'
+			font-weight: 900
+			position: absolute
+			top: 6px
+			left: 0
+.modus-box-txt
+	line-height: 25px
+.modus-box-link
+	color: #e1524b
+.clients
+	background: #f8f8f8
+	padding: 6px 13px 30px 30px
+	font-style: italic
+	line-height: 1.9
+	position: relative
+	border-radius: 5px
+.clients::before
+	content: ""
+	position: absolute
+	bottom: -19px
+	left: 20px
+	width: 0
+	height: 0
+	border-style: solid
+	border-width: 0 19px 19px 0px
+	border-color: transparent #f7f7f7 transparent
+.author
+	margin: 9px 0 0 52px
+	font-weight: 600
+	font-style: italic
+	font-size: 16px
+	color: $blue-icon
